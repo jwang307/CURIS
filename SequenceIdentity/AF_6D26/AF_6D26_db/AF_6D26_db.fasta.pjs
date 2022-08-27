@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "dbname": "AF_6D26_db.fasta",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "AF_6D26_db.fasta",
+  "number-of-letters": 13488,
+  "number-of-sequences": 43,
+  "last-updated": "2022-08-18T13:03:00",
+  "number-of-volumes": 1,
+  "bytes-total": 54562,
+  "bytes-to-cache": 13988,
+  "files": [
+    "AF_6D26_db.fasta.pdb",
+    "AF_6D26_db.fasta.phr",
+    "AF_6D26_db.fasta.pin",
+    "AF_6D26_db.fasta.pot",
+    "AF_6D26_db.fasta.psq",
+    "AF_6D26_db.fasta.ptf",
+    "AF_6D26_db.fasta.pto"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "dbname": "AF_5YHL_db.fasta",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "AF_5YHL_db.fasta",
+  "number-of-letters": 22366,
+  "number-of-sequences": 79,
+  "last-updated": "2022-08-18T12:55:00",
+  "number-of-volumes": 1,
+  "bytes-total": 66860,
+  "bytes-to-cache": 23190,
+  "files": [
+    "AF_5YHL_db.fasta.pdb",
+    "AF_5YHL_db.fasta.phr",
+    "AF_5YHL_db.fasta.pin",
+    "AF_5YHL_db.fasta.pot",
+    "AF_5YHL_db.fasta.psq",
+    "AF_5YHL_db.fasta.ptf",
+    "AF_5YHL_db.fasta.pto"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "dbname": "AF_5ZKP_db.fasta",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "AF_5ZKP_db.fasta",
+  "number-of-letters": 28562,
+  "number-of-sequences": 100,
+  "last-updated": "2022-08-18T12:59:00",
+  "number-of-volumes": 1,
+  "bytes-total": 75051,
+  "bytes-to-cache": 29575,
+  "files": [
+    "AF_5ZKP_db.fasta.pdb",
+    "AF_5ZKP_db.fasta.phr",
+    "AF_5ZKP_db.fasta.pin",
+    "AF_5ZKP_db.fasta.pot",
+    "AF_5ZKP_db.fasta.psq",
+    "AF_5ZKP_db.fasta.ptf",
+    "AF_5ZKP_db.fasta.pto"
+  ]
+}

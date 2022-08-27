@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "dbname": "AF_7CKW_db.fasta",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "AF_7CKW_db.fasta",
+  "number-of-letters": 7580,
+  "number-of-sequences": 25,
+  "last-updated": "2022-08-18T13:31:00",
+  "number-of-volumes": 1,
+  "bytes-total": 46944,
+  "bytes-to-cache": 7918,
+  "files": [
+    "AF_7CKW_db.fasta.pdb",
+    "AF_7CKW_db.fasta.phr",
+    "AF_7CKW_db.fasta.pin",
+    "AF_7CKW_db.fasta.pot",
+    "AF_7CKW_db.fasta.psq",
+    "AF_7CKW_db.fasta.ptf",
+    "AF_7CKW_db.fasta.pto"
+  ]
+}
