@@ -8,7 +8,7 @@ def dist(com_1, com_2):
     return 10000
 
 
-def com_filter(key, threshold=5, path="~/CURIS/PyMol Sessions/"):
+def com_filter(key, threshold=5, path="~/CURIS/pymol_sessions/"):
 
     threshold = float(threshold)
     # load in list of objects

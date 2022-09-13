@@ -90,6 +90,7 @@ def run_blast(folder_path, query, db, out, eval):
 if __name__ == '__main__':
     af_pdb_code = sys.argv[1]
     pymol_session = sys.argv[2]
+    # add e value as argument
     folder_path = "/Users/jwang/CURIS/" if len(sys.argv) <= 3 else sys.argv[3]
     query_code = "AF_" + af_pdb_code
     db_name = query_code + "_db/"
