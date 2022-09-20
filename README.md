@@ -37,7 +37,7 @@ A collection of random utility scripts. The only two that may be useful are ```S
 
 ### StripPDB
 
-G-LoSA only takes in pdb files that only contain the ```ATOM``` or ```HETsomething``` information. All other metadata in the file will confuse the code that parses the pdb file.
+G-LoSA only takes in pdb files that only contain the ```ATOM``` or ```HETATM``` information. All other metadata in the file will confuse the code that parses the pdb file.
 This program will take in a pdb file and output stripped pdb file that will fit G-LoSA requirements. The program takes in 2 arguments. Using ```--help``` will detail information on the parameters:
 - [path]: path of the input pdb file
 - [key]: 'p' for keeping only atoms of a protein, 'l' for keeping only atoms of a ligand
