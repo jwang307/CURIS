@@ -1,0 +1,11 @@
+af/
+af_binding_sites/
+charmm/
+clean_min_combind_v2.csv/
+.*
+!/.gitignore
+model_template_pairs/
+Readings/
+md/
+pymol_sessions/
+
