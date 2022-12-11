@@ -1,0 +1,7 @@
+GRIDFILE  /home/users/jwang003/glosa_mods/CNR2/structures/grids/AF_5ZTY/AF_5ZTY.zip
+LIGANDFILE   /home/users/jwang003/glosa_mods/CNR2/ligands/6PT0_lig/6PT0_lig.maegz
+DOCKING_METHOD   confgen
+POSES_PER_LIG   100
+POSTDOCK_NPOSE   100
+PRECISION   SP
+NENHANCED_SAMPLING   4

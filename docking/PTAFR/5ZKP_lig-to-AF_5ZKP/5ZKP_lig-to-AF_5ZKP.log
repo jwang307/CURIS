@@ -1,0 +1,360 @@
+Glide version 90161 (mmshare version 53161)
+mmshare         2cb27f0eb7
+glide-src       1e5ffd4733
+psp-src         6c93e2fe77
+macromodel-src  d47a6cf2e1
+epik-src        46d635d642
+
+Copyright (c) Schrodinger, LLC.
+All Rights Reserved.
+
+--------------------------------------------------------------------------------
+JobId          : sh02-10n01-0-6393119a
+Name           : 5ZKP_lig-to-AF_5ZKP
+Program        : Glide
+Host           : sh02-10n01.int
+Dir            : /home/users/jwang003/glosa_mods/PTAFR/docking/5ZKP_lig-to-AF_5ZKP
+HostEntry      : localhost
+JobHost        : sh02-10n01.int
+JobDir         : /home/users/jwang003/glosa_mods/PTAFR/docking/5ZKP_lig-to-AF_5ZKP
+JobSchrodinger : /share/software/user/restricted/schrodinger/2021-1
+Commandline    : /share/software/user/restricted/schrodinger/2021-1/glide -WAIT -LOCAL -RESTART 5ZKP_lig-to-AF_5ZKP.in
+StartTime      : 2022-12-09-02:44:42
+--------------------------------------------------------------------------------
+
+ VdW radii of ligand atoms scaled by   0.800000000000000     
+ Charge cutoff for polarity   0.150000000000000     
+For enhanced sampling, increasing funnel width parameter MAXKEEP by a factor of 4 (number of samples), to 20000
+ After readscreen, (nx, ny, nz) = (          30 ,           30 ,           30 ).
+  Receptor setup: (nsites, nx, ny, nz, bsize)=(         512 ,           30 , 
+          30 ,           30 ,    1.00000000000000      ).
+ Screening setup finished.
+ DOCKMAIN: getting receptor.
+  DOCKMAIN after grid: (nx, ny, nz) = (          80 ,           80 , 
+          80 ).
+ DOCKMAIN: Grid setup finished
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+
+Reading torsion control file '/share/software/user/restricted/schrodinger/2021-1/glide-v9.0/bin/Linux-x86_64/../../data/torcontrol.txt':
+  
+  Using generalized torsion control 
+  
+ Number of rotatable bonds           10
+ Using templates for ring conformations.
+For enhanced sampling, increasing funnel width parameter MAXREF by a factor of 4 (number of samples), to 1600
+
+GlideScore version SP5.0 will be used
+
+  
+ Buried polar penalty      0.000
+ Coulomb vdW cutoff        0.000
+ H bond cutoff             0.000
+ Metal-ligand cutoff      10.000
+Assigning GlideScore SP5.0 parameters
+ set icplus          23
+ set icplus          25
+ set icplus          26
+Postdocking minimization: 100 poses; CvdW cutoffs   100.0 kcal/mol for min,     0.0 kcal/mol for report.
+GlideScore(  -10.82)+Epik State Penalty(    0.02) =   -10.80 kcal/mol
+GlideScore(   -9.24)+Epik State Penalty(    0.02) =    -9.22 kcal/mol
+GlideScore(   -9.09)+Epik State Penalty(    0.02) =    -9.07 kcal/mol
+GlideScore(   -9.07)+Epik State Penalty(    0.02) =    -9.05 kcal/mol
+GlideScore(   -9.16)+Epik State Penalty(    0.02) =    -9.14 kcal/mol
+GlideScore(   -9.02)+Epik State Penalty(    0.02) =    -9.00 kcal/mol
+GlideScore(   -9.93)+Epik State Penalty(    0.02) =    -9.91 kcal/mol
+GlideScore(   -9.21)+Epik State Penalty(    0.02) =    -9.19 kcal/mol
+GlideScore(   -8.61)+Epik State Penalty(    0.02) =    -8.59 kcal/mol
+GlideScore(   -9.20)+Epik State Penalty(    0.02) =    -9.18 kcal/mol
+GlideScore(   -9.38)+Epik State Penalty(    0.02) =    -9.36 kcal/mol
+GlideScore(   -9.36)+Epik State Penalty(    0.02) =    -9.34 kcal/mol
+GlideScore(   -8.72)+Epik State Penalty(    0.02) =    -8.70 kcal/mol
+GlideScore(   -9.33)+Epik State Penalty(    0.02) =    -9.31 kcal/mol
+GlideScore(   -9.05)+Epik State Penalty(    0.02) =    -9.03 kcal/mol
+GlideScore(   -8.71)+Epik State Penalty(    0.02) =    -8.69 kcal/mol
+GlideScore(   -9.01)+Epik State Penalty(    0.02) =    -8.99 kcal/mol
+GlideScore(   -8.75)+Epik State Penalty(    0.02) =    -8.73 kcal/mol
+GlideScore(   -9.09)+Epik State Penalty(    0.02) =    -9.07 kcal/mol
+GlideScore(   -9.51)+Epik State Penalty(    0.02) =    -9.49 kcal/mol
+GlideScore(   -8.84)+Epik State Penalty(    0.02) =    -8.82 kcal/mol
+GlideScore(   -8.20)+Epik State Penalty(    0.02) =    -8.18 kcal/mol
+GlideScore(   -9.75)+Epik State Penalty(    0.02) =    -9.73 kcal/mol
+GlideScore(   -8.37)+Epik State Penalty(    0.02) =    -8.35 kcal/mol
+GlideScore(   -9.33)+Epik State Penalty(    0.02) =    -9.31 kcal/mol
+GlideScore(   -9.95)+Epik State Penalty(    0.02) =    -9.93 kcal/mol
+GlideScore(   -9.44)+Epik State Penalty(    0.02) =    -9.42 kcal/mol
+GlideScore(   -8.78)+Epik State Penalty(    0.02) =    -8.76 kcal/mol
+GlideScore(   -8.96)+Epik State Penalty(    0.02) =    -8.94 kcal/mol
+GlideScore(   -8.70)+Epik State Penalty(    0.02) =    -8.68 kcal/mol
+GlideScore(   -8.52)+Epik State Penalty(    0.02) =    -8.50 kcal/mol
+GlideScore(   -9.45)+Epik State Penalty(    0.02) =    -9.43 kcal/mol
+GlideScore(   -8.64)+Epik State Penalty(    0.02) =    -8.62 kcal/mol
+GlideScore(   -9.32)+Epik State Penalty(    0.02) =    -9.31 kcal/mol
+GlideScore(   -9.43)+Epik State Penalty(    0.02) =    -9.41 kcal/mol
+GlideScore(   -9.66)+Epik State Penalty(    0.02) =    -9.64 kcal/mol
+GlideScore(   -7.88)+Epik State Penalty(    0.02) =    -7.86 kcal/mol
+GlideScore(   -8.85)+Epik State Penalty(    0.02) =    -8.83 kcal/mol
+GlideScore(   -8.60)+Epik State Penalty(    0.02) =    -8.58 kcal/mol
+GlideScore(   -8.64)+Epik State Penalty(    0.02) =    -8.62 kcal/mol
+GlideScore(   -8.95)+Epik State Penalty(    0.02) =    -8.93 kcal/mol
+GlideScore(   -7.78)+Epik State Penalty(    0.02) =    -7.76 kcal/mol
+GlideScore(   -9.19)+Epik State Penalty(    0.02) =    -9.17 kcal/mol
+GlideScore(   -9.17)+Epik State Penalty(    0.02) =    -9.15 kcal/mol
+GlideScore(   -8.90)+Epik State Penalty(    0.02) =    -8.88 kcal/mol
+GlideScore(   -9.19)+Epik State Penalty(    0.02) =    -9.17 kcal/mol
+GlideScore(   -8.04)+Epik State Penalty(    0.02) =    -8.02 kcal/mol
+GlideScore(   -8.57)+Epik State Penalty(    0.02) =    -8.55 kcal/mol
+GlideScore(   -8.34)+Epik State Penalty(    0.02) =    -8.32 kcal/mol
+GlideScore(   -7.53)+Epik State Penalty(    0.02) =    -7.51 kcal/mol
+GlideScore(   -8.83)+Epik State Penalty(    0.02) =    -8.81 kcal/mol
+GlideScore(   -8.23)+Epik State Penalty(    0.02) =    -8.21 kcal/mol
+GlideScore(   -7.55)+Epik State Penalty(    0.02) =    -7.53 kcal/mol
+GlideScore(   -8.65)+Epik State Penalty(    0.02) =    -8.63 kcal/mol
+GlideScore(   -8.32)+Epik State Penalty(    0.02) =    -8.30 kcal/mol
+GlideScore(   -7.44)+Epik State Penalty(    0.02) =    -7.42 kcal/mol
+GlideScore(   -8.12)+Epik State Penalty(    0.02) =    -8.10 kcal/mol
+GlideScore(   -9.00)+Epik State Penalty(    0.02) =    -8.98 kcal/mol
+GlideScore(   -8.43)+Epik State Penalty(    0.02) =    -8.41 kcal/mol
+GlideScore(   -7.94)+Epik State Penalty(    0.02) =    -7.92 kcal/mol
+GlideScore(   -8.28)+Epik State Penalty(    0.02) =    -8.26 kcal/mol
+GlideScore(   -7.82)+Epik State Penalty(    0.02) =    -7.80 kcal/mol
+GlideScore(   -7.49)+Epik State Penalty(    0.02) =    -7.47 kcal/mol
+GlideScore(   -6.86)+Epik State Penalty(    0.02) =    -6.84 kcal/mol
+GlideScore(   -7.57)+Epik State Penalty(    0.02) =    -7.55 kcal/mol
+GlideScore(   -7.58)+Epik State Penalty(    0.02) =    -7.56 kcal/mol
+GlideScore(   -7.43)+Epik State Penalty(    0.02) =    -7.41 kcal/mol
+GlideScore(   -8.20)+Epik State Penalty(    0.02) =    -8.18 kcal/mol
+GlideScore(   -7.93)+Epik State Penalty(    0.02) =    -7.91 kcal/mol
+GlideScore(   -7.69)+Epik State Penalty(    0.02) =    -7.67 kcal/mol
+GlideScore(   -8.02)+Epik State Penalty(    0.02) =    -8.00 kcal/mol
+GlideScore(   -7.90)+Epik State Penalty(    0.02) =    -7.88 kcal/mol
+GlideScore(   -6.34)+Epik State Penalty(    0.02) =    -6.32 kcal/mol
+GlideScore(   -7.92)+Epik State Penalty(    0.02) =    -7.90 kcal/mol
+GlideScore(   -7.73)+Epik State Penalty(    0.02) =    -7.71 kcal/mol
+GlideScore(   -7.44)+Epik State Penalty(    0.02) =    -7.43 kcal/mol
+GlideScore(   -7.62)+Epik State Penalty(    0.02) =    -7.60 kcal/mol
+GlideScore(   -7.43)+Epik State Penalty(    0.02) =    -7.41 kcal/mol
+GlideScore(   -7.53)+Epik State Penalty(    0.02) =    -7.51 kcal/mol
+GlideScore(   -7.46)+Epik State Penalty(    0.02) =    -7.44 kcal/mol
+GlideScore(   -7.44)+Epik State Penalty(    0.02) =    -7.42 kcal/mol
+GlideScore(   -7.70)+Epik State Penalty(    0.02) =    -7.68 kcal/mol
+GlideScore(   -7.19)+Epik State Penalty(    0.02) =    -7.18 kcal/mol
+GlideScore(   -7.06)+Epik State Penalty(    0.02) =    -7.04 kcal/mol
+GlideScore(10000.00)+Epik State Penalty(    0.02) = 10000.02 kcal/mol
+DOCKING RESULTS FOR LIGAND        1 (5ZKP_lig)
+Best Emodel=   -88.37 E=   -59.56 Eint=    15.28 GlideScore=   -10.82
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds           10
+ Using templates for ring conformations.
+ set icplus          23
+ set icplus          25
+ set icplus          26
+GlideScore(   -9.32)+Epik State Penalty(    2.58) =    -6.74 kcal/mol
+GlideScore(   -9.42)+Epik State Penalty(    2.58) =    -6.84 kcal/mol
+GlideScore(   -8.65)+Epik State Penalty(    2.58) =    -6.07 kcal/mol
+GlideScore(   -9.70)+Epik State Penalty(    2.58) =    -7.12 kcal/mol
+GlideScore(   -9.02)+Epik State Penalty(    2.58) =    -6.44 kcal/mol
+GlideScore(   -9.48)+Epik State Penalty(    2.58) =    -6.91 kcal/mol
+GlideScore(   -9.47)+Epik State Penalty(    2.58) =    -6.90 kcal/mol
+GlideScore(   -9.39)+Epik State Penalty(    2.58) =    -6.81 kcal/mol
+GlideScore(   -9.51)+Epik State Penalty(    2.58) =    -6.93 kcal/mol
+GlideScore(   -9.19)+Epik State Penalty(    2.58) =    -6.61 kcal/mol
+GlideScore(   -8.80)+Epik State Penalty(    2.58) =    -6.22 kcal/mol
+GlideScore(   -8.49)+Epik State Penalty(    2.58) =    -5.91 kcal/mol
+GlideScore(   -9.92)+Epik State Penalty(    2.58) =    -7.34 kcal/mol
+GlideScore(   -8.52)+Epik State Penalty(    2.58) =    -5.95 kcal/mol
+GlideScore(   -9.49)+Epik State Penalty(    2.58) =    -6.91 kcal/mol
+GlideScore(   -8.78)+Epik State Penalty(    2.58) =    -6.20 kcal/mol
+GlideScore(   -9.22)+Epik State Penalty(    2.58) =    -6.64 kcal/mol
+GlideScore(   -9.74)+Epik State Penalty(    2.58) =    -7.16 kcal/mol
+GlideScore(   -8.74)+Epik State Penalty(    2.58) =    -6.16 kcal/mol
+GlideScore(   -8.55)+Epik State Penalty(    2.58) =    -5.97 kcal/mol
+GlideScore(   -9.09)+Epik State Penalty(    2.58) =    -6.51 kcal/mol
+GlideScore(   -8.73)+Epik State Penalty(    2.58) =    -6.15 kcal/mol
+GlideScore(   -8.97)+Epik State Penalty(    2.58) =    -6.40 kcal/mol
+GlideScore(   -8.94)+Epik State Penalty(    2.58) =    -6.36 kcal/mol
+GlideScore(   -8.96)+Epik State Penalty(    2.58) =    -6.38 kcal/mol
+GlideScore(   -8.42)+Epik State Penalty(    2.58) =    -5.84 kcal/mol
+GlideScore(   -7.96)+Epik State Penalty(    2.58) =    -5.38 kcal/mol
+GlideScore(   -9.27)+Epik State Penalty(    2.58) =    -6.69 kcal/mol
+GlideScore(   -9.23)+Epik State Penalty(    2.58) =    -6.65 kcal/mol
+GlideScore(   -8.30)+Epik State Penalty(    2.58) =    -5.72 kcal/mol
+GlideScore(   -8.88)+Epik State Penalty(    2.58) =    -6.30 kcal/mol
+GlideScore(   -9.02)+Epik State Penalty(    2.58) =    -6.44 kcal/mol
+GlideScore(   -9.17)+Epik State Penalty(    2.58) =    -6.59 kcal/mol
+GlideScore(   -7.18)+Epik State Penalty(    2.58) =    -4.60 kcal/mol
+GlideScore(   -8.90)+Epik State Penalty(    2.58) =    -6.32 kcal/mol
+GlideScore(   -9.17)+Epik State Penalty(    2.58) =    -6.59 kcal/mol
+GlideScore(   -8.95)+Epik State Penalty(    2.58) =    -6.37 kcal/mol
+GlideScore(   -8.53)+Epik State Penalty(    2.58) =    -5.95 kcal/mol
+GlideScore(   -8.52)+Epik State Penalty(    2.58) =    -5.94 kcal/mol
+GlideScore(   -9.19)+Epik State Penalty(    2.58) =    -6.62 kcal/mol
+GlideScore(   -8.37)+Epik State Penalty(    2.58) =    -5.79 kcal/mol
+GlideScore(   -8.48)+Epik State Penalty(    2.58) =    -5.90 kcal/mol
+GlideScore(   -8.84)+Epik State Penalty(    2.58) =    -6.27 kcal/mol
+GlideScore(   -8.54)+Epik State Penalty(    2.58) =    -5.96 kcal/mol
+GlideScore(   -8.73)+Epik State Penalty(    2.58) =    -6.16 kcal/mol
+GlideScore(   -8.06)+Epik State Penalty(    2.58) =    -5.48 kcal/mol
+GlideScore(   -9.04)+Epik State Penalty(    2.58) =    -6.46 kcal/mol
+GlideScore(   -8.11)+Epik State Penalty(    2.58) =    -5.53 kcal/mol
+GlideScore(   -8.62)+Epik State Penalty(    2.58) =    -6.05 kcal/mol
+GlideScore(   -8.37)+Epik State Penalty(    2.58) =    -5.79 kcal/mol
+GlideScore(   -8.58)+Epik State Penalty(    2.58) =    -6.00 kcal/mol
+GlideScore(   -8.89)+Epik State Penalty(    2.58) =    -6.32 kcal/mol
+GlideScore(   -8.79)+Epik State Penalty(    2.58) =    -6.22 kcal/mol
+GlideScore(   -8.48)+Epik State Penalty(    2.58) =    -5.91 kcal/mol
+GlideScore(   -8.43)+Epik State Penalty(    2.58) =    -5.85 kcal/mol
+GlideScore(   -7.91)+Epik State Penalty(    2.58) =    -5.33 kcal/mol
+GlideScore(   -8.47)+Epik State Penalty(    2.58) =    -5.89 kcal/mol
+GlideScore(   -8.30)+Epik State Penalty(    2.58) =    -5.72 kcal/mol
+GlideScore(   -8.32)+Epik State Penalty(    2.58) =    -5.74 kcal/mol
+GlideScore(   -8.53)+Epik State Penalty(    2.58) =    -5.95 kcal/mol
+GlideScore(   -8.11)+Epik State Penalty(    2.58) =    -5.53 kcal/mol
+GlideScore(   -8.08)+Epik State Penalty(    2.58) =    -5.50 kcal/mol
+GlideScore(   -7.24)+Epik State Penalty(    2.58) =    -4.66 kcal/mol
+GlideScore(   -6.99)+Epik State Penalty(    2.58) =    -4.41 kcal/mol
+GlideScore(   -7.95)+Epik State Penalty(    2.58) =    -5.37 kcal/mol
+GlideScore(   -7.94)+Epik State Penalty(    2.58) =    -5.36 kcal/mol
+GlideScore(   -8.33)+Epik State Penalty(    2.58) =    -5.75 kcal/mol
+GlideScore(   -8.41)+Epik State Penalty(    2.58) =    -5.83 kcal/mol
+GlideScore(   -8.40)+Epik State Penalty(    2.58) =    -5.82 kcal/mol
+GlideScore(   -7.76)+Epik State Penalty(    2.58) =    -5.18 kcal/mol
+GlideScore(   -7.76)+Epik State Penalty(    2.58) =    -5.18 kcal/mol
+GlideScore(   -7.90)+Epik State Penalty(    2.58) =    -5.33 kcal/mol
+GlideScore(   -7.71)+Epik State Penalty(    2.58) =    -5.13 kcal/mol
+GlideScore(   -7.81)+Epik State Penalty(    2.58) =    -5.23 kcal/mol
+GlideScore(   -7.95)+Epik State Penalty(    2.58) =    -5.37 kcal/mol
+GlideScore(   -7.29)+Epik State Penalty(    2.58) =    -4.71 kcal/mol
+GlideScore(   -7.35)+Epik State Penalty(    2.58) =    -4.77 kcal/mol
+GlideScore(   -8.05)+Epik State Penalty(    2.58) =    -5.48 kcal/mol
+GlideScore(   -7.57)+Epik State Penalty(    2.58) =    -4.99 kcal/mol
+GlideScore(   -7.17)+Epik State Penalty(    2.58) =    -4.59 kcal/mol
+GlideScore(   -6.79)+Epik State Penalty(    2.58) =    -4.21 kcal/mol
+GlideScore(   -7.22)+Epik State Penalty(    2.58) =    -4.64 kcal/mol
+GlideScore(   -5.66)+Epik State Penalty(    2.58) =    -3.09 kcal/mol
+DOCKING RESULTS FOR LIGAND        2 (5ZKP_lig)
+Best Emodel=   -81.72 E=   -55.39 Eint=     5.22 GlideScore=    -9.32
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds           10
+ Using templates for ring conformations.
+ set icplus          22
+ set icplus          23
+ set icplus          25
+ set icplus          26
+ set icplus          27
+GlideScore(   -9.88)+Epik State Penalty(    2.67) =    -7.21 kcal/mol
+GlideScore(   -9.30)+Epik State Penalty(    2.67) =    -6.64 kcal/mol
+GlideScore(   -9.30)+Epik State Penalty(    2.67) =    -6.63 kcal/mol
+GlideScore(   -9.16)+Epik State Penalty(    2.67) =    -6.49 kcal/mol
+GlideScore(   -9.92)+Epik State Penalty(    2.67) =    -7.26 kcal/mol
+GlideScore(   -9.76)+Epik State Penalty(    2.67) =    -7.09 kcal/mol
+GlideScore(   -9.59)+Epik State Penalty(    2.67) =    -6.93 kcal/mol
+GlideScore(   -9.09)+Epik State Penalty(    2.67) =    -6.42 kcal/mol
+GlideScore(   -9.26)+Epik State Penalty(    2.67) =    -6.59 kcal/mol
+GlideScore(   -7.61)+Epik State Penalty(    2.67) =    -4.94 kcal/mol
+GlideScore(   -8.39)+Epik State Penalty(    2.67) =    -5.72 kcal/mol
+GlideScore(   -8.85)+Epik State Penalty(    2.67) =    -6.18 kcal/mol
+GlideScore(   -7.21)+Epik State Penalty(    2.67) =    -4.54 kcal/mol
+GlideScore(   -8.81)+Epik State Penalty(    2.67) =    -6.15 kcal/mol
+GlideScore(   -8.80)+Epik State Penalty(    2.67) =    -6.13 kcal/mol
+GlideScore(   -8.62)+Epik State Penalty(    2.67) =    -5.95 kcal/mol
+GlideScore(   -9.01)+Epik State Penalty(    2.67) =    -6.34 kcal/mol
+GlideScore(   -9.34)+Epik State Penalty(    2.67) =    -6.67 kcal/mol
+GlideScore(   -9.03)+Epik State Penalty(    2.67) =    -6.36 kcal/mol
+GlideScore(   -8.33)+Epik State Penalty(    2.67) =    -5.67 kcal/mol
+GlideScore(   -8.07)+Epik State Penalty(    2.67) =    -5.40 kcal/mol
+GlideScore(   -8.83)+Epik State Penalty(    2.67) =    -6.17 kcal/mol
+GlideScore(   -9.52)+Epik State Penalty(    2.67) =    -6.85 kcal/mol
+GlideScore(   -9.69)+Epik State Penalty(    2.67) =    -7.02 kcal/mol
+GlideScore(   -8.65)+Epik State Penalty(    2.67) =    -5.98 kcal/mol
+GlideScore(   -9.31)+Epik State Penalty(    2.67) =    -6.64 kcal/mol
+GlideScore(   -9.79)+Epik State Penalty(    2.67) =    -7.12 kcal/mol
+GlideScore(   -8.67)+Epik State Penalty(    2.67) =    -6.00 kcal/mol
+GlideScore(   -9.01)+Epik State Penalty(    2.67) =    -6.35 kcal/mol
+GlideScore(   -9.43)+Epik State Penalty(    2.67) =    -6.76 kcal/mol
+GlideScore(   -7.81)+Epik State Penalty(    2.67) =    -5.15 kcal/mol
+GlideScore(   -8.68)+Epik State Penalty(    2.67) =    -6.01 kcal/mol
+GlideScore(   -8.64)+Epik State Penalty(    2.67) =    -5.98 kcal/mol
+GlideScore(   -8.42)+Epik State Penalty(    2.67) =    -5.76 kcal/mol
+GlideScore(   -8.83)+Epik State Penalty(    2.67) =    -6.17 kcal/mol
+GlideScore(   -8.78)+Epik State Penalty(    2.67) =    -6.11 kcal/mol
+GlideScore(   -7.50)+Epik State Penalty(    2.67) =    -4.84 kcal/mol
+GlideScore(   -7.96)+Epik State Penalty(    2.67) =    -5.30 kcal/mol
+GlideScore(   -8.55)+Epik State Penalty(    2.67) =    -5.88 kcal/mol
+GlideScore(   -8.92)+Epik State Penalty(    2.67) =    -6.25 kcal/mol
+GlideScore(   -8.55)+Epik State Penalty(    2.67) =    -5.88 kcal/mol
+GlideScore(   -8.72)+Epik State Penalty(    2.67) =    -6.05 kcal/mol
+GlideScore(   -7.58)+Epik State Penalty(    2.67) =    -4.91 kcal/mol
+GlideScore(   -7.25)+Epik State Penalty(    2.67) =    -4.59 kcal/mol
+GlideScore(   -7.23)+Epik State Penalty(    2.67) =    -4.57 kcal/mol
+GlideScore(   -8.05)+Epik State Penalty(    2.67) =    -5.38 kcal/mol
+GlideScore(   -7.56)+Epik State Penalty(    2.67) =    -4.89 kcal/mol
+GlideScore(   -8.64)+Epik State Penalty(    2.67) =    -5.97 kcal/mol
+GlideScore(   -8.78)+Epik State Penalty(    2.67) =    -6.12 kcal/mol
+GlideScore(   -8.46)+Epik State Penalty(    2.67) =    -5.80 kcal/mol
+GlideScore(   -8.39)+Epik State Penalty(    2.67) =    -5.72 kcal/mol
+GlideScore(   -6.95)+Epik State Penalty(    2.67) =    -4.28 kcal/mol
+GlideScore(   -7.97)+Epik State Penalty(    2.67) =    -5.30 kcal/mol
+GlideScore(   -7.83)+Epik State Penalty(    2.67) =    -5.16 kcal/mol
+GlideScore(   -7.86)+Epik State Penalty(    2.67) =    -5.19 kcal/mol
+GlideScore(   -8.38)+Epik State Penalty(    2.67) =    -5.71 kcal/mol
+GlideScore(   -7.92)+Epik State Penalty(    2.67) =    -5.26 kcal/mol
+GlideScore(   -6.94)+Epik State Penalty(    2.67) =    -4.28 kcal/mol
+GlideScore(   -7.36)+Epik State Penalty(    2.67) =    -4.70 kcal/mol
+GlideScore(   -6.25)+Epik State Penalty(    2.67) =    -3.59 kcal/mol
+GlideScore(   -8.26)+Epik State Penalty(    2.67) =    -5.59 kcal/mol
+GlideScore(   -8.16)+Epik State Penalty(    2.67) =    -5.49 kcal/mol
+GlideScore(   -7.46)+Epik State Penalty(    2.67) =    -4.79 kcal/mol
+GlideScore(   -8.03)+Epik State Penalty(    2.67) =    -5.37 kcal/mol
+GlideScore(   -7.15)+Epik State Penalty(    2.67) =    -4.49 kcal/mol
+GlideScore(   -7.37)+Epik State Penalty(    2.67) =    -4.71 kcal/mol
+GlideScore(   -7.49)+Epik State Penalty(    2.67) =    -4.83 kcal/mol
+GlideScore(   -7.51)+Epik State Penalty(    2.67) =    -4.85 kcal/mol
+GlideScore(   -8.48)+Epik State Penalty(    2.67) =    -5.82 kcal/mol
+GlideScore(   -8.23)+Epik State Penalty(    2.67) =    -5.56 kcal/mol
+GlideScore(   -6.81)+Epik State Penalty(    2.67) =    -4.15 kcal/mol
+GlideScore(   -7.20)+Epik State Penalty(    2.67) =    -4.54 kcal/mol
+GlideScore(   -7.48)+Epik State Penalty(    2.67) =    -4.81 kcal/mol
+GlideScore(   -7.91)+Epik State Penalty(    2.67) =    -5.24 kcal/mol
+GlideScore(   -7.73)+Epik State Penalty(    2.67) =    -5.07 kcal/mol
+GlideScore(   -6.03)+Epik State Penalty(    2.67) =    -3.36 kcal/mol
+GlideScore(   -7.93)+Epik State Penalty(    2.67) =    -5.26 kcal/mol
+GlideScore(   -8.07)+Epik State Penalty(    2.67) =    -5.41 kcal/mol
+GlideScore(   -8.04)+Epik State Penalty(    2.67) =    -5.38 kcal/mol
+GlideScore(   -7.31)+Epik State Penalty(    2.67) =    -4.64 kcal/mol
+GlideScore(   -7.54)+Epik State Penalty(    2.67) =    -4.87 kcal/mol
+GlideScore(   -7.57)+Epik State Penalty(    2.67) =    -4.90 kcal/mol
+GlideScore(   -6.20)+Epik State Penalty(    2.67) =    -3.53 kcal/mol
+GlideScore(   -7.51)+Epik State Penalty(    2.67) =    -4.85 kcal/mol
+GlideScore(   -7.41)+Epik State Penalty(    2.67) =    -4.75 kcal/mol
+GlideScore(   -6.50)+Epik State Penalty(    2.67) =    -3.84 kcal/mol
+GlideScore(   -6.44)+Epik State Penalty(    2.67) =    -3.77 kcal/mol
+GlideScore(   -5.93)+Epik State Penalty(    2.67) =    -3.26 kcal/mol
+GlideScore(10000.00)+Epik State Penalty(    2.67) = 10002.67 kcal/mol
+GlideScore(10000.00)+Epik State Penalty(    2.67) = 10002.67 kcal/mol
+DOCKING RESULTS FOR LIGAND        3 (5ZKP_lig)
+Best Emodel=   -79.53 E=   -54.25 Eint=     9.23 GlideScore=    -9.88
+
+Glide is executing the glide_sort command.
+Command-line equivalent is:
+ "/share/software/user/restricted/schrodinger/2021-1/utilities/glide_sort" -n 0 -o "5ZKP_lig-to-AF_5ZKP_pv.maegz"   -hbond_cut 0.00 -cvdw_cut 0.00 -metal_cut 10.00 -gscore_cut 100.00 -dscore_cut 100.00 "5ZKP_lig-to-AF_5ZKP_raw.maegz"
+REPORT OF BEST 255 POSES
+
+The receptor and sorted ligand structures were written to the file
+5ZKP_lig-to-AF_5ZKP_pv.maegz  for use in the Pose Viewer.
+
+Final rankings based on original docking score
+3 poses were rejected by the energy filters,
+    Coul+vdw Energy <=     0.0    Hbond Interaction <=     0.0    Metal Interaction <=    10.0    GlideScore <=   100.0    Docking Score <=   100.0
+(If any of the above properties is not defined for a given pose,
+the corresponding filter is not applied to that pose.)
+
+
+glide_sort command succeeded.  Pose file 5ZKP_lig-to-AF_5ZKP_pv.maegz was written.
+
+Exiting Glide
+Date: Friday, December 09 2022, at 02:48:58 PST
+CPU time (s): 244.8 user, 4.6 system, 253.8 real
+Total elapsed time = 254 seconds (4 minutes, 14 seconds)

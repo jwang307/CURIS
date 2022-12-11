@@ -1,0 +1,7 @@
+GRIDFILE  /home/users/jwang003/glosa_mods/ADA2B/structures/grids/AF_6K41/AF_6K41.zip
+LIGANDFILE   /home/users/jwang003/glosa_mods/ADA2B/ligands/6K42_lig/6K42_lig.maegz
+DOCKING_METHOD   confgen
+POSES_PER_LIG   100
+POSTDOCK_NPOSE   100
+PRECISION   SP
+NENHANCED_SAMPLING   4

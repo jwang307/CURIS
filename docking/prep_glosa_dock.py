@@ -50,7 +50,7 @@ def prep_pairs(oak_path, dock_path, uniprots, pdbs, templates):
         cmd.load(pse_path)
         cmd.save(f'{save_path}{lig_name}.mae', template)
         print('Copied lig')
-        '''
+
         # copy crystal binders
         crystal_structs = f'{crystal_path}{uniprot}/structures/processed/'
         try:
@@ -64,7 +64,7 @@ def prep_pairs(oak_path, dock_path, uniprots, pdbs, templates):
             print(f'Finished {af_name}')
         except FileNotFoundError:
             print(f'Could not copy ligands smiles folder {uniprot}')
-        '''
+
 
 def delete_models(dock_path, uniprots):
     # delete all folders of modeled structs
@@ -85,7 +85,7 @@ def delete_models(dock_path, uniprots):
 def get_results(dock_path, uniprots):
     for uniprot in uniprots:
         result_path = f'{dock_path}{uniprot}/docking/'
-        save_path = 'docking/'
+        save_path = f'docking/{uniprot}'
         shutil.copytree(result_path, save_path, dirs_exist_ok=True)
         print(f'Finished {uniprot}')
 
@@ -103,7 +103,7 @@ if __name__ == '__main__':
             'AF_7E9G','AF_7E2Y']
     templates = ['3b85A-lig-1', '5zkqA-lig-1', '5xraA-lig-2', '6bqhA-lig-1', '3dedA-lig-1', '5vblB-lig-2',
                  '4dklA-lig-1','5cufA-lig-10', '3zpqA-lig-6', '3zpqA-lig-6', '4ej4A-lig-1', '3uonA-lig-1', '4kibA-lig-1',
-                 '4kibA-lig-1','5zkqA-lig-1', '3d4sA-lig-1', '3pfmA-lig-1', '3h75A-lig-1', '5cgcA-lig-4', '5wiuA-lig-1']
+                 '4kibA-lig-1','5zkqA-lig-1', '3d4sA-lig-1', '3pfmA-lig-1', '3h75A-lig-1', '5cgcA-lig-4', '3pblA-lig-1']
 
     # prep_pairs(oak_mount, dock_mount, uniprots, pdbs, templates)
     # delete_models(dock_mount, uniprots)

@@ -1,0 +1,7 @@
+GRIDFILE  /home/users/jwang003/glosa_mods/PE2R2/structures/grids/AF_7CX2/AF_7CX2.zip
+LIGANDFILE   /home/users/jwang003/glosa_mods/PE2R2/ligands/7CX2_lig/7CX2_lig.maegz
+DOCKING_METHOD   confgen
+POSES_PER_LIG   100
+POSTDOCK_NPOSE   100
+PRECISION   SP
+NENHANCED_SAMPLING   4

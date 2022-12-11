@@ -1,0 +1,120 @@
+Glide version 90161 (mmshare version 53161)
+mmshare         2cb27f0eb7
+glide-src       1e5ffd4733
+psp-src         6c93e2fe77
+macromodel-src  d47a6cf2e1
+epik-src        46d635d642
+
+Copyright (c) Schrodinger, LLC.
+All Rights Reserved.
+
+--------------------------------------------------------------------------------
+JobId          : sh02-17n10-0-639312d4
+Name           : 6PT0_lig-to-AF_5ZTY
+Program        : Glide
+Host           : sh02-17n10.int
+Dir            : /home/users/jwang003/glosa_mods/CNR2/docking/6PT0_lig-to-AF_5ZTY
+HostEntry      : localhost
+JobHost        : sh02-17n10.int
+JobDir         : /home/users/jwang003/glosa_mods/CNR2/docking/6PT0_lig-to-AF_5ZTY
+JobSchrodinger : /share/software/user/restricted/schrodinger/2021-1
+Commandline    : /share/software/user/restricted/schrodinger/2021-1/glide -WAIT -LOCAL -RESTART 6PT0_lig-to-AF_5ZTY.in
+StartTime      : 2022-12-09-02:49:56
+--------------------------------------------------------------------------------
+
+ VdW radii of ligand atoms scaled by   0.800000000000000     
+ Charge cutoff for polarity   0.150000000000000     
+For enhanced sampling, increasing funnel width parameter MAXKEEP by a factor of 4 (number of samples), to 20000
+ After readscreen, (nx, ny, nz) = (          30 ,           30 ,           30 ).
+  Receptor setup: (nsites, nx, ny, nz, bsize)=(         512 ,           30 , 
+          30 ,           30 ,    1.00000000000000      ).
+ Screening setup finished.
+ DOCKMAIN: getting receptor.
+  DOCKMAIN after grid: (nx, ny, nz) = (          80 ,           80 , 
+          80 ).
+ DOCKMAIN: Grid setup finished
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+
+Reading torsion control file '/share/software/user/restricted/schrodinger/2021-1/glide-v9.0/bin/Linux-x86_64/../../data/torcontrol.txt':
+  
+  Using generalized torsion control 
+  
+ Number of rotatable bonds            4
+ Using templates for ring conformations.
+ Too many confs in count          55          54
+For enhanced sampling, increasing funnel width parameter MAXREF by a factor of 4 (number of samples), to 1600
+
+GlideScore version SP5.0 will be used
+
+  
+ Buried polar penalty      0.000
+ Coulomb vdW cutoff        0.000
+ H bond cutoff             0.000
+ Metal-ligand cutoff      10.000
+Assigning GlideScore SP5.0 parameters
+Postdocking minimization: 100 poses; CvdW cutoffs   100.0 kcal/mol for min,     0.0 kcal/mol for report.
+GlideScore(   -9.68)+Epik State Penalty(    0.01) =    -9.67 kcal/mol
+GlideScore(   -6.69)+Epik State Penalty(    0.01) =    -6.68 kcal/mol
+GlideScore(   -7.61)+Epik State Penalty(    0.01) =    -7.61 kcal/mol
+GlideScore(   -7.99)+Epik State Penalty(    0.01) =    -7.98 kcal/mol
+GlideScore(   -7.09)+Epik State Penalty(    0.01) =    -7.08 kcal/mol
+GlideScore(   -6.61)+Epik State Penalty(    0.01) =    -6.60 kcal/mol
+GlideScore(   -7.11)+Epik State Penalty(    0.01) =    -7.10 kcal/mol
+GlideScore(   -6.12)+Epik State Penalty(    0.01) =    -6.11 kcal/mol
+GlideScore(   -5.60)+Epik State Penalty(    0.01) =    -5.60 kcal/mol
+GlideScore(   -5.41)+Epik State Penalty(    0.01) =    -5.40 kcal/mol
+GlideScore(   -7.92)+Epik State Penalty(    0.01) =    -7.92 kcal/mol
+GlideScore(   -5.87)+Epik State Penalty(    0.01) =    -5.86 kcal/mol
+DOCKING RESULTS FOR LIGAND        1 (6PT0_lig)
+Best Emodel=   -31.60 E=   -33.73 Eint=     8.19 GlideScore=    -9.68
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds            4
+ Using templates for ring conformations.
+ Too many confs in count          56          55
+ set icplus          26
+ set icplus          28
+ set icplus          32
+GlideScore(  -10.42)+Epik State Penalty(    2.60) =    -7.82 kcal/mol
+GlideScore(  -10.19)+Epik State Penalty(    2.60) =    -7.59 kcal/mol
+GlideScore(   -7.86)+Epik State Penalty(    2.60) =    -5.26 kcal/mol
+GlideScore(   -9.21)+Epik State Penalty(    2.60) =    -6.60 kcal/mol
+GlideScore(  -10.34)+Epik State Penalty(    2.60) =    -7.73 kcal/mol
+GlideScore(   -9.28)+Epik State Penalty(    2.60) =    -6.68 kcal/mol
+GlideScore(   -6.88)+Epik State Penalty(    2.60) =    -4.27 kcal/mol
+GlideScore(   -9.19)+Epik State Penalty(    2.60) =    -6.59 kcal/mol
+GlideScore(   -7.15)+Epik State Penalty(    2.60) =    -4.55 kcal/mol
+GlideScore(   -7.05)+Epik State Penalty(    2.60) =    -4.45 kcal/mol
+GlideScore(   -7.71)+Epik State Penalty(    2.60) =    -5.11 kcal/mol
+GlideScore(   -6.97)+Epik State Penalty(    2.60) =    -4.36 kcal/mol
+GlideScore(   -6.54)+Epik State Penalty(    2.60) =    -3.94 kcal/mol
+GlideScore(   -6.85)+Epik State Penalty(    2.60) =    -4.25 kcal/mol
+GlideScore(   -5.92)+Epik State Penalty(    2.60) =    -3.32 kcal/mol
+GlideScore(   -6.64)+Epik State Penalty(    2.60) =    -4.04 kcal/mol
+GlideScore(   -7.77)+Epik State Penalty(    2.60) =    -5.17 kcal/mol
+GlideScore(   -7.77)+Epik State Penalty(    2.60) =    -5.17 kcal/mol
+DOCKING RESULTS FOR LIGAND        2 (6PT0_lig)
+Best Emodel=   -38.18 E=   -37.03 Eint=     6.94 GlideScore=   -10.42
+
+Glide is executing the glide_sort command.
+Command-line equivalent is:
+ "/share/software/user/restricted/schrodinger/2021-1/utilities/glide_sort" -n 0 -o "6PT0_lig-to-AF_5ZTY_pv.maegz"   -hbond_cut 0.00 -cvdw_cut 0.00 -metal_cut 10.00 -gscore_cut 100.00 -dscore_cut 100.00 "6PT0_lig-to-AF_5ZTY_raw.maegz"
+REPORT OF BEST 30 POSES
+
+The receptor and sorted ligand structures were written to the file
+6PT0_lig-to-AF_5ZTY_pv.maegz  for use in the Pose Viewer.
+
+Final rankings based on original docking score
+0 poses were rejected by the energy filters,
+    Coul+vdw Energy <=     0.0    Hbond Interaction <=     0.0    Metal Interaction <=    10.0    GlideScore <=   100.0    Docking Score <=   100.0
+(If any of the above properties is not defined for a given pose,
+the corresponding filter is not applied to that pose.)
+
+
+glide_sort command succeeded.  Pose file 6PT0_lig-to-AF_5ZTY_pv.maegz was written.
+
+Exiting Glide
+Date: Friday, December 09 2022, at 02:50:39 PST
+CPU time (s): 38.0 user, 0.3 system, 40.6 real
+Total elapsed time = 41 seconds

@@ -1,0 +1,112 @@
+Glide version 90161 (mmshare version 53161)
+mmshare         2cb27f0eb7
+glide-src       1e5ffd4733
+psp-src         6c93e2fe77
+macromodel-src  d47a6cf2e1
+epik-src        46d635d642
+
+Copyright (c) Schrodinger, LLC.
+All Rights Reserved.
+
+--------------------------------------------------------------------------------
+JobId          : sh02-17n44-0-63931199
+Name           : 6KUX_lig-to-AF_6KUX
+Program        : Glide
+Host           : sh02-17n44.int
+Dir            : /home/users/jwang003/glosa_mods/ADA2A/docking/6KUX_lig-to-AF_6KUX
+HostEntry      : localhost
+JobHost        : sh02-17n44.int
+JobDir         : /home/users/jwang003/glosa_mods/ADA2A/docking/6KUX_lig-to-AF_6KUX
+JobSchrodinger : /share/software/user/restricted/schrodinger/2021-1
+Commandline    : /share/software/user/restricted/schrodinger/2021-1/glide -WAIT -LOCAL -RESTART 6KUX_lig-to-AF_6KUX.in
+StartTime      : 2022-12-09-02:44:41
+--------------------------------------------------------------------------------
+
+ VdW radii of ligand atoms scaled by   0.800000000000000     
+ Charge cutoff for polarity   0.150000000000000     
+For enhanced sampling, increasing funnel width parameter MAXKEEP by a factor of 4 (number of samples), to 20000
+ After readscreen, (nx, ny, nz) = (          30 ,           30 ,           30 ).
+  Receptor setup: (nsites, nx, ny, nz, bsize)=(         512 ,           30 , 
+          30 ,           30 ,    1.00000000000000      ).
+ Screening setup finished.
+ DOCKMAIN: getting receptor.
+  DOCKMAIN after grid: (nx, ny, nz) = (          80 ,           80 , 
+          80 ).
+ DOCKMAIN: Grid setup finished
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+
+Reading torsion control file '/share/software/user/restricted/schrodinger/2021-1/glide-v9.0/bin/Linux-x86_64/../../data/torcontrol.txt':
+  
+  Using generalized torsion control 
+  
+ Number of rotatable bonds            3
+ Failed to generate ring conformations.
+ Will use conformations from input structure.
+ set bad on ringconf
+For enhanced sampling, increasing funnel width parameter MAXREF by a factor of 4 (number of samples), to 1600
+
+GlideScore version SP5.0 will be used
+
+  
+ Buried polar penalty      0.000
+ Coulomb vdW cutoff        0.000
+ H bond cutoff             0.000
+ Metal-ligand cutoff      10.000
+Assigning GlideScore SP5.0 parameters
+ set icplus          11
+ set icplus          14
+ set icplus          16
+Postdocking minimization: 100 poses; CvdW cutoffs   100.0 kcal/mol for min,     0.0 kcal/mol for report.
+GlideScore(   -6.46)+Epik State Penalty(    0.21) =    -6.25 kcal/mol
+GlideScore(   -6.47)+Epik State Penalty(    0.21) =    -6.26 kcal/mol
+GlideScore(   -6.44)+Epik State Penalty(    0.21) =    -6.23 kcal/mol
+GlideScore(   -5.16)+Epik State Penalty(    0.21) =    -4.94 kcal/mol
+DOCKING RESULTS FOR LIGAND        1 (6KUX_lig)
+Best Emodel=   -33.83 E=   -19.87 Eint=     7.73 GlideScore=    -6.46
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds            3
+ Failed to generate ring conformations.
+ Will use conformations from input structure.
+ set bad on ringconf
+ set icplus          11
+ set icplus          14
+ set icplus          16
+GlideScore(   -6.61)+Epik State Penalty(    0.21) =    -6.40 kcal/mol
+GlideScore(   -6.08)+Epik State Penalty(    0.21) =    -5.87 kcal/mol
+DOCKING RESULTS FOR LIGAND        2 (6KUX_lig)
+Best Emodel=   -43.63 E=   -19.00 Eint=    10.29 GlideScore=    -6.61
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds            3
+ Failed to generate ring conformations.
+ Will use conformations from input structure.
+ set bad on ringconf
+GlideScore(   -3.99)+Epik State Penalty(    0.71) =    -3.28 kcal/mol
+GlideScore(   -4.07)+Epik State Penalty(    0.71) =    -3.36 kcal/mol
+GlideScore(   -3.83)+Epik State Penalty(    0.71) =    -3.12 kcal/mol
+DOCKING RESULTS FOR LIGAND        3 (6KUX_lig)
+Best Emodel=   -12.87 E=   -12.68 Eint=     4.88 GlideScore=    -3.99
+
+Glide is executing the glide_sort command.
+Command-line equivalent is:
+ "/share/software/user/restricted/schrodinger/2021-1/utilities/glide_sort" -n 0 -o "6KUX_lig-to-AF_6KUX_pv.maegz"   -hbond_cut 0.00 -cvdw_cut 0.00 -metal_cut 10.00 -gscore_cut 100.00 -dscore_cut 100.00 "6KUX_lig-to-AF_6KUX_raw.maegz"
+REPORT OF BEST 9 POSES
+
+The receptor and sorted ligand structures were written to the file
+6KUX_lig-to-AF_6KUX_pv.maegz  for use in the Pose Viewer.
+
+Final rankings based on original docking score
+0 poses were rejected by the energy filters,
+    Coul+vdw Energy <=     0.0    Hbond Interaction <=     0.0    Metal Interaction <=    10.0    GlideScore <=   100.0    Docking Score <=   100.0
+(If any of the above properties is not defined for a given pose,
+the corresponding filter is not applied to that pose.)
+
+
+glide_sort command succeeded.  Pose file 6KUX_lig-to-AF_6KUX_pv.maegz was written.
+
+Exiting Glide
+Date: Friday, December 09 2022, at 02:45:09 PST
+CPU time (s): 22.5 user, 0.4 system, 25.0 real
+Total elapsed time = 25 seconds

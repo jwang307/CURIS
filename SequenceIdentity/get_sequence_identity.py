@@ -80,7 +80,7 @@ def run_blast(folder_path, query, db, out, eval):
     result = NCBIXML.read(result_handle)
     with open(folder_path + "_identities.txt", 'w') as outfile:
         for alignment in result.alignments:
-            bs_name = alignment.hit_def
+            bs_name = alignment.hit_def[0:5]
             identity = alignment.hsps[0].identities/alignment.hsps[0].align_length
             outfile.write(bs_name + ": " + str(identity) +
                           " with alignment length " + str(alignment.hsps[0].align_length) + '\n')

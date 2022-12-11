@@ -1,0 +1,7 @@
+GRIDFILE  /home/users/jwang003/glosa_mods/MTR1B/structures/grids/AF_6ME7/AF_6ME7.zip
+LIGANDFILE   /home/users/jwang003/glosa_mods/MTR1B/ligands/6ME6_lig/6ME6_lig.maegz
+DOCKING_METHOD   confgen
+POSES_PER_LIG   100
+POSTDOCK_NPOSE   100
+PRECISION   SP
+NENHANCED_SAMPLING   4

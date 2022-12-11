@@ -1,0 +1,7 @@
+GRIDFILE  /home/users/jwang003/glosa_mods/5HT2A/structures/grids/AF_6A93/AF_6A93.zip
+LIGANDFILE   /home/users/jwang003/glosa_mods/5HT2A/ligands/6WH4_lig/6WH4_lig.maegz
+DOCKING_METHOD   confgen
+POSES_PER_LIG   100
+POSTDOCK_NPOSE   100
+PRECISION   SP
+NENHANCED_SAMPLING   4

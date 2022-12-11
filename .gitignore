@@ -8,4 +8,8 @@ model_template_pairs/
 Readings/
 md/
 pymol_sessions/
-
+Scripts/lib/
+Scripts/lib_cf/
+Scripts/.*
+SequenceIdentity/.*
+docking/.*

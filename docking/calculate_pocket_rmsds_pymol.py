@@ -9,11 +9,10 @@ import math
 # from pathlib import Path
 
 
+oak_dir = "/Users/jwang/CURIS/"
+data_dir = oak_dir + "mount/"
 
-oak_dir = "/Users/mashka/sherlock_oak/"
-data_dir = oak_dir+ "projects/ligand-docking/modeled_structures/data_min_corrected/"
-
-
+# not used?
 gpcr_db = oak_dir+ "projects/ligand-docking/modeled_structures/scripts/gpcr_db_set.csv"
 path_dir = oak_dir+ "projects/ligand-docking/modeled_structures/data/gpcr_pockets/pdbs/"
 
@@ -90,11 +89,11 @@ def align_pv():
 #     df_align_rms = pd.DataFrame.from_dict(pocket_dict_aligndms, orient = "index", columns = ['pocket_rmsd_align'])
     df_pocket_res_count = pd.DataFrame.from_dict(pocket_size,orient = 'index', columns = ['pocket_res_count'])
     
-    df.to_csv("/Users/mashka/Dror/af_benchmarking/pocket_rms_min_corrected.csv")
-    df_pocket_res_count.to_csv("/Users/mashka/Dror/af_benchmarking/pocket_res_count_min_corrected.csv")
+    df.to_csv("/Users/jwang/CURIS/docking/pocket_rms_min_corrected.csv")
+    df_pocket_res_count.to_csv("/Users/jwang/CURIS/docking/pocket_res_count_min_corrected.csv")
            
 
     
-cmd.extend('align_pv2', align_pv)
+cmd.extend('align_pv', align_pv)
 if __name__ == '__main__':
     align_pv()
